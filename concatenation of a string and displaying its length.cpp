@@ -10,3 +10,8 @@ int main() {
     cout << "Length of the concatenated string is: "<< str3.length();
     return 0;
 }
+
+/*
+string: Pal Jain
+Length of the concatenated string is: 8
+    */
