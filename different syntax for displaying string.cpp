@@ -14,3 +14,10 @@ int main() {
 
     return 0;
 }
+
+/*
+str1: C++
+str2: C++
+str3: C++
+str4: C++
+    */
