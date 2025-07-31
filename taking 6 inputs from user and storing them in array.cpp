@@ -15,3 +15,14 @@ for(int n=0; n<6; n++){
 
    return 0;
 }
+
+/*
+The marks of student in six subjects are:
+76
+90
+45
+77
+90
+80
+76 90 45 77 90 80 
+*/
