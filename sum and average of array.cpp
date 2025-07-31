@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//To find the number in the array.
+ 
 int main() {
 int arr[5]={10,20,30,40,50};
 int sum=0;
@@ -12,3 +12,8 @@ average=sum/5;
 cout<<"This is the sum: "<<sum<<endl;
 cout<<"This is average: "<<average;
 }
+
+/*
+This is the sum: 150
+This is average: 30
+    */
