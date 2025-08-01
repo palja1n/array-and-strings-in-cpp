@@ -14,11 +14,14 @@ An array is a data structure that can store a fixed-size sequential collection o
 
 # Key Features:
 Stores elements in contiguous memory locations.
+
 Elements can be accessed randomly using indices.
+
 Can hold primitive data types or user-defined data types.
 
 # Types of Arrays
 One-dimensional array: Linear collection of elements.
+
 Multi-dimensional array: Arrays of arrays (e.g., 2D arrays representing matrices).
 
 # Operations on Arrays
@@ -28,7 +31,9 @@ Accessing elements: arr[index]
 **Theory**: Reversing an array means displaying the elements from the last index to the first using a loop.  
 **Algorithm**:
 - Initialize array with values.
+  
 - Loop from last index to first.
+  
 - Print each element.
   
 Output:
@@ -75,15 +80,23 @@ Declare an array of fixed size.
 Use a loop to take input values from the user.
 Store each input value into the array.
 Use another loop to print the array elements.
+
 Code Output:
 
 The marks of student are:
+
 99
+
 89
+
 78
+
 58
+
 68
+
 85
+
 99 89 78 58 68 85 
 
 
@@ -93,15 +106,24 @@ Problem Statement: Write a code to calculate average of array elements.
 Code Output:
 
 The numbers of array are:
+
 12
+
 24
+
 21
+
 28
+
 32
+
 20
+
 12 24 21 28 32 20 
+
 The sum of elements of array are:
 137
+
 The average of elements of array are:
 22
 
@@ -111,13 +133,21 @@ Problem Statement: Write a code to store marks in an array and find key location
 Code Output:
 
 The marks of student are:
+
 89
+
 98
+
 70
+
 99
+
 66
+
 76
+
 89 98 70 99 66 76 
+
 key found at location: 4
 
 # STRINGS
@@ -126,29 +156,34 @@ A string is a sequence of characters, usually stored as an array of characters, 
 
 # Key Characteristics
 Immutable in some languages (e.g., Python, Java)
+
 Mutable in others (e.g., C with character arrays)
+
 Often implemented as arrays of characters internally
 
 # Common Operations
 Concatenation (joining two strings)
+
 Substring extraction
+
 Searching (finding a character or substring)
+
 Comparison
+
 Length calculation
+
 
 # Program 1: String Input and Display
 Problem Statement: Write a code which takes a string as input from user and display it out.
 
 Algorithm:
-
 Declare a string variable.
 Prompt the user to enter a string.
 Read the string using cin.
 Print the string.
+
 Code Output:
 
-These are the  various ways in which we can display a string
-Enter the string:
 C++
 C++
 C++
@@ -161,20 +196,28 @@ Problem Statement: Write a code to take two strings and concatenate them.
 Algorithm:
 
 Declare two string variables.
+
 Take input for both strings using cin.
+
 Concatenate the strings using + operator.
+
 Display the concatenated result.
 
 Code Output:
 
 Enter the string:
+
 Pal
+
 Enter the string:
+
 Jain
+
 The concatenated string is: Pal Jain
+Length: 8
 
 Explanation:
-Takes two strings and joins them using + operator.
+Takes two strings and joins them using + operator. Gives the length of the concatenated string.
 
 # Program 3: Reverse a String
 Problem Statement: Write a code which reverses a string.
@@ -182,11 +225,12 @@ Problem Statement: Write a code which reverses a string.
 Code Output:
 
 Enter a string:
+
 Hello
+
 olleH
 
 Explanation:
-
 Traverses the string backward using loop to reverse.
 
 # Program 4: Palindrome Check
@@ -195,11 +239,12 @@ Problem Statement: Write a code to check whether a string is palindrome or not.
 Code Output:
 
 Enter the string:
+
 racecar
+
 It is a palindrome.
 
 Explanation:
-
 Compares characters from both ends inward.
 If mismatch occurs, it breaks and reports it's not a palindrome.
 
